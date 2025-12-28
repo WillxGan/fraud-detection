@@ -1,5 +1,16 @@
 # Credit-Fraud-Detector
 
+## Dataset
+
+This project uses the **Credit Card Fraud Detection** dataset from Kaggle.
+
+- **Source:** https://www.kaggle.com/code/janiobachmann/credit-fraud-dealing-with-imbalanced-datasets/notebook
+
+- **Description:** The dataset contains European card transactions from September 2013, with features transformed using PCA for confidentiality. Fraudulent transactions represent approximately 0.17% of all observations.
+- **License:** Kaggle dataset terms apply.
+> Note: The raw dataset is not included in this repository due to file size constraints.  
+> To reproduce results, download the dataset from Kaggle and place `creditcard.csv` in `data/raw/`.
+
 ## Overview
 This project builds a  fraud detection workflow using the Kaggle credit card transactions dataset. The pipeline covers preprocessing, proper evaluation for extreme class imbalance, threshold tuning, regression  interpretation (coefficients + odds ratios), and model comparison (SMOTE + Random Forest).
 
