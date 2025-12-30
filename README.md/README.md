@@ -53,9 +53,9 @@ This project builds a  fraud detection workflow using the Kaggle credit card tra
 ```text
 fraud_detection/
 ├── data/
-│   └── raw/                # raw dataset (do not commit large files)
-├── notebooks/              # analysis notebook(s)
-├── src/                    # helper scripts (optional)
-├── models/                 # saved models (optional)
+│   └── raw/                
+├── notebooks/              
+├── src/                   
+├── models/                 
 ├── requirements.txt
 └── README.md
